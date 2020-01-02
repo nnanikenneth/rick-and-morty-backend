@@ -1,0 +1,52 @@
+{
+  "name": "rick-and-morty-backend",
+  "version": "1.2.10",
+  "description": "",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --recursive"
+  },
+  "author": {
+    "name": "Nnani Kenneth",
+    "email": "nnanikenneth@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "2.7.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.0.0",
+    "ejs": "2.6.1",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-rate-limit": "^3.5.1",
+    "express-route-validator": "^0.2.5",
+    "express-session": "^1.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^4.1.1",
+    "method-override": "^3.0.0",
+    "methods": "1.1.2",
+    "mocha": "^6.1.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.10.2",
+    "node-cache": "^5.1.0",
+    "node-fetch": "^2.6.0",
+    "passport": "^0.3.2",
+    "should": "^13.2.3",
+    "slug": "1.1.0",
+    "underscore": "1.8.3",
+    "uniqid": "^5.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "newman": "^4.5.7",
+    "nodemon": "^1.19.0"
+  }
+}
